@@ -1,0 +1,1 @@
+bool WriteText(char *filename,char *data);

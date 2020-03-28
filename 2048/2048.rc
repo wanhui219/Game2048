@@ -1,0 +1,271 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\My2048.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\2048.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_MAIN DIALOGEX 0, 0, 143, 182
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "2048  QQ：87423805"
+MENU IDR_MENU_SYS
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "B02",IDC_BTN_02,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,34,43,35,35
+    CONTROL         "B01",IDC_BTN_01,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,0,43,35,35
+    CONTROL         "B03",IDC_BTN_03,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,69,43,35,35
+    CONTROL         "B04",IDC_BTN_04,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,104,43,35,35
+    CONTROL         "B06",IDC_BTN_06,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,34,77,35,35
+    CONTROL         "B05",IDC_BTN_05,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,0,77,35,35
+    CONTROL         "B07",IDC_BTN_07,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,69,77,35,35
+    CONTROL         "B08",IDC_BTN_08,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,104,77,35,35
+    CONTROL         "B10",IDC_BTN_10,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,34,112,35,35
+    CONTROL         "B09",IDC_BTN_09,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,0,112,35,35
+    CONTROL         "B11",IDC_BTN_11,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,69,112,35,35
+    CONTROL         "B12",IDC_BTN_12,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,104,112,35,35
+    CONTROL         "B14",IDC_BTN_14,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,34,146,35,35
+    CONTROL         "B13",IDC_BTN_13,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,0,146,35,35
+    CONTROL         "B15",IDC_BTN_15,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,69,146,35,35
+    CONTROL         "B16",IDC_BTN_16,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,104,146,35,35
+    LTEXT           "分数：",IDC_STA_TOTNUM,0,7,141,12,WS_BORDER
+    LTEXT           "步数：",IDC_STA_TOTSTEP,0,19,141,12,WS_BORDER
+    LTEXT           "方向:",IDC_STA_DIRE,0,31,141,12,WS_BORDER
+END
+
+IDD_DLG_Explain DIALOGEX 0, 0, 264, 119
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "联系我们"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "作者：万辉\n\nQQ：87423805\n\nEmail：wanhui219@163.com",IDC_STATIC,169,24,87,88
+    CONTROL         151,IDC_STATIC,"Static",SS_BITMAP,7,7,160,105
+END
+
+IDD_DLG_Cheat DIALOGEX 0, 0, 170, 107
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "密籍提示"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "【F2】：清除全部数字一\n\n【F3】：清除全部数字二\n\n【F4】：随机交换位置\n\n【F5】：数字一升级为数字二\n\n【F6】：数字一升级为数字四",IDC_STATIC,7,7,156,93
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "万辉 QQ:87423805"
+            VALUE "FileDescription", "万辉 QQ:87423805"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "2048.exe"
+            VALUE "OriginalFilename", "2048.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_MAIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 141
+        TOPMARGIN, 7
+    END
+
+    IDD_DLG_Explain, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_DLG_Cheat, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 100
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BMP_0               BITMAP                  "res\\0.bmp"
+IDB_BMP_1               BITMAP                  "res\\1.bmp"
+IDB_BMP_2               BITMAP                  "res\\2.bmp"
+IDB_BMP_4               BITMAP                  "res\\4.bmp"
+IDB_BMP_8               BITMAP                  "res\\8.bmp"
+IDB_BMP_16              BITMAP                  "res\\16.bmp"
+IDB_BMP_32              BITMAP                  "res\\32.bmp"
+IDB_BMP_64              BITMAP                  "res\\64.bmp"
+IDB_BMP_128             BITMAP                  "res\\128.bmp"
+IDB_BMP_256             BITMAP                  "res\\256.bmp"
+IDB_BMP_512             BITMAP                  "res\\512.bmp"
+IDB_BMP_1024            BITMAP                  "res\\1024.bmp"
+IDB_BMP_2048            BITMAP                  "res\\2048.bmp"
+IDB_BMP_4096            BITMAP                  "res\\4096.bmp"
+IDB_BMP_8192            BITMAP                  "res\\8192.bmp"
+IDB_BMP_HELP            BITMAP                  "res\\help.bmp"
+IDB_BMP_16384           BITMAP                  "res\\16384.bmp"
+IDB_BMP_32768           BITMAP                  "res\\32768.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_SYS MENU 
+BEGIN
+    POPUP "操作(&O)"
+    BEGIN
+        MENUITEM "记录步骤(&R)",                    ID_MENU_RECORD
+        MENUITEM SEPARATOR
+        MENUITEM "开始游戏(&S)",                    ID_MENU_RESTART
+        MENUITEM "终止游戏(&E)",                    ID_MENU_END
+        MENUITEM SEPARATOR
+        MENUITEM "启动回放(&D)",                    ID_MENU_DISPLAY
+        MENUITEM "停止回放(&T)",                    ID_MENU_DISPEND
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_MENU_EXIT
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "联系我们(&D)",                    ID_MENU_EXPLAIN
+        MENUITEM "作弊(&C)",                      ID_MENU_CHEAT
+    END
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\My2048.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
